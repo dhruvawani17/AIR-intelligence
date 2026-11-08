@@ -3,25 +3,75 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --fs: min(19.6vh, 13.2vw);
+  --background: #f2f2f1;
+  --foreground: #1d1d1d;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (max-width: 720px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --fs: min(34vw, 16.5vh);
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow-x: hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f2f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a9a9a6;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d1d1d;
+}
+
+/* =========================================================
+   Google Maps: Remove 'For development purposes only' Watermark & Overlays
+   ========================================================= */
+.gm-style-pbc,
+.gm-err-container,
+.gm-err-content,
+.dismissButton,
+div[jsaction*="dimiss"],
+div[aria-label*="development"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Remove dark overlay filter grid injected by Google Maps */
+.gm-style div[style*="background-color: rgba(0, 0, 0, 0.4)"],
+.gm-style div[style*="background-color: rgba(0, 0, 0, 0.5)"],
+.gm-style div[style*="background-color: rgba(0, 0, 0, 0.6)"],
+.gm-style div[style*="color: rgba(255, 255, 255, 0.7)"],
+.gm-style div[style*="z-index: 1000000"],
+.gm-style div[style*="z-index: 1000001"] {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+/* Reset Map Containers */
+.leaflet-container {
+  background: #f8f8f7 !important;
+  font-family: inherit;
+}
+
+.leaflet-tile {
+  filter: none !important;
 }

@@ -1,0 +1,4932 @@
+[
+  {
+    "timestamp": "2026-10-31T00:00:00+05:30",
+    "displayTime": "Oct 31, 12:00 AM",
+    "isForecast": false,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T01:00:00+05:30",
+    "displayTime": "Oct 31, 01:00 AM",
+    "isForecast": false,
+    "cityAverage": 23.8,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 22.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 30.2,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 9.53,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 32.78,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T02:00:00+05:30",
+    "displayTime": "Oct 31, 02:00 AM",
+    "isForecast": false,
+    "cityAverage": 23.62,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 25.49,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 29.86,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 9.35,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 29.76,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T03:00:00+05:30",
+    "displayTime": "Oct 31, 03:00 AM",
+    "isForecast": false,
+    "cityAverage": 22.43,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 25.71,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 34.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 7.45,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 22.54,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T04:00:00+05:30",
+    "displayTime": "Oct 31, 04:00 AM",
+    "isForecast": false,
+    "cityAverage": 25.2,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 32.98,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 41.63,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 6.24,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 19.95,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T05:00:00+05:30",
+    "displayTime": "Oct 31, 05:00 AM",
+    "isForecast": false,
+    "cityAverage": 28.53,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 38.73,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 43.39,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 9.75,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 22.23,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T06:00:00+05:30",
+    "displayTime": "Oct 31, 06:00 AM",
+    "isForecast": false,
+    "cityAverage": 28.42,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 38.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 36.43,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 10.77,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 28.21,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T07:00:00+05:30",
+    "displayTime": "Oct 31, 07:00 AM",
+    "isForecast": false,
+    "cityAverage": 30.47,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 34.0,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 39.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 17.51,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 31.36,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T08:00:00+05:30",
+    "displayTime": "Oct 31, 08:00 AM",
+    "isForecast": false,
+    "cityAverage": 33.86,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 32.36,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 48.65,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.27,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 34.14,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T09:00:00+05:30",
+    "displayTime": "Oct 31, 09:00 AM",
+    "isForecast": false,
+    "cityAverage": 37.16,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 34.58,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 50.44,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 27.81,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 35.83,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T10:00:00+05:30",
+    "displayTime": "Oct 31, 10:00 AM",
+    "isForecast": false,
+    "cityAverage": 35.48,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 33.59,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 41.71,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 27.1,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 39.54,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T11:00:00+05:30",
+    "displayTime": "Oct 31, 11:00 AM",
+    "isForecast": false,
+    "cityAverage": 35.12,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 34.17,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 35.44,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 30.67,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.21,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T12:00:00+05:30",
+    "displayTime": "Oct 31, 12:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.17,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 37.9,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 36.3,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 25.81,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 36.66,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T13:00:00+05:30",
+    "displayTime": "Oct 31, 01:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.52,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 42.42,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 38.6,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.0,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 35.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T14:00:00+05:30",
+    "displayTime": "Oct 31, 02:00 PM",
+    "isForecast": false,
+    "cityAverage": 35.49,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 42.77,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 37.67,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 27.05,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 34.46,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T15:00:00+05:30",
+    "displayTime": "Oct 31, 03:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.24,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 41.28,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 34.6,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 26.2,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 34.88,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T16:00:00+05:30",
+    "displayTime": "Oct 31, 04:00 PM",
+    "isForecast": false,
+    "cityAverage": 35.84,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 42.97,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 30.42,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 29.76,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.23,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T17:00:00+05:30",
+    "displayTime": "Oct 31, 05:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.96,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 42.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 29.29,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 28.53,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T18:00:00+05:30",
+    "displayTime": "Oct 31, 06:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.12,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 38.57,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 32.64,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 24.66,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.62,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T19:00:00+05:30",
+    "displayTime": "Oct 31, 07:00 PM",
+    "isForecast": false,
+    "cityAverage": 37.64,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 45.35,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 39.98,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 23.88,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 41.34,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T20:00:00+05:30",
+    "displayTime": "Oct 31, 08:00 PM",
+    "isForecast": false,
+    "cityAverage": 40.29,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 51.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 44.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 21.07,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 44.15,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T21:00:00+05:30",
+    "displayTime": "Oct 31, 09:00 PM",
+    "isForecast": false,
+    "cityAverage": 39.32,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 48.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 37.65,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 23.05,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 48.56,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T22:00:00+05:30",
+    "displayTime": "Oct 31, 10:00 PM",
+    "isForecast": false,
+    "cityAverage": 37.48,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 45.55,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 30.95,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 23.16,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 50.25,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-31T23:00:00+05:30",
+    "displayTime": "Oct 31, 11:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.39,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.84,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T00:00:00+05:30",
+    "displayTime": "Nov 01, 12:00 AM",
+    "isForecast": false,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T01:00:00+05:30",
+    "displayTime": "Nov 01, 01:00 AM",
+    "isForecast": false,
+    "cityAverage": 32.99,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.1,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 31.52,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.59,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 42.76,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T02:00:00+05:30",
+    "displayTime": "Nov 01, 02:00 AM",
+    "isForecast": false,
+    "cityAverage": 32.02,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.64,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 33.25,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.27,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 39.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T03:00:00+05:30",
+    "displayTime": "Nov 01, 03:00 AM",
+    "isForecast": false,
+    "cityAverage": 34.85,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 40.36,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 37.43,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 21.14,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.48,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T04:00:00+05:30",
+    "displayTime": "Nov 01, 04:00 AM",
+    "isForecast": false,
+    "cityAverage": 37.87,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 37.14,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 49.06,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.37,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 44.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T05:00:00+05:30",
+    "displayTime": "Nov 01, 05:00 AM",
+    "isForecast": false,
+    "cityAverage": 37.87,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.35,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 48.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 25.59,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 43.44,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T06:00:00+05:30",
+    "displayTime": "Nov 01, 06:00 AM",
+    "isForecast": false,
+    "cityAverage": 37.59,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.39,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 47.29,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 23.72,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 43.95,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T07:00:00+05:30",
+    "displayTime": "Nov 01, 07:00 AM",
+    "isForecast": false,
+    "cityAverage": 39.32,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 43.61,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 44.78,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 24.53,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 44.34,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T08:00:00+05:30",
+    "displayTime": "Nov 01, 08:00 AM",
+    "isForecast": false,
+    "cityAverage": 38.2,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 45.22,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 43.28,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 21.69,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 42.62,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T09:00:00+05:30",
+    "displayTime": "Nov 01, 09:00 AM",
+    "isForecast": false,
+    "cityAverage": 33.87,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 32.45,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 39.41,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.89,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.75,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T10:00:00+05:30",
+    "displayTime": "Nov 01, 10:00 AM",
+    "isForecast": false,
+    "cityAverage": 29.91,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 27.89,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 29.88,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 41.31,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T11:00:00+05:30",
+    "displayTime": "Nov 01, 11:00 AM",
+    "isForecast": false,
+    "cityAverage": 31.53,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 33.58,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 27.45,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 24.55,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.54,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T12:00:00+05:30",
+    "displayTime": "Nov 01, 12:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.65,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 38.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 32.1,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 30.77,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 29.21,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T13:00:00+05:30",
+    "displayTime": "Nov 01, 01:00 PM",
+    "isForecast": false,
+    "cityAverage": 33.65,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 40.35,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 29.77,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 32.1,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 32.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T14:00:00+05:30",
+    "displayTime": "Nov 01, 02:00 PM",
+    "isForecast": false,
+    "cityAverage": 35.35,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 40.0,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 34.13,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 34.66,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 32.6,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T15:00:00+05:30",
+    "displayTime": "Nov 01, 03:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.42,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 38.35,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 34.12,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 31.93,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 33.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T16:00:00+05:30",
+    "displayTime": "Nov 01, 04:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.6,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 38.23,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 42.91,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 27.72,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 29.54,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T17:00:00+05:30",
+    "displayTime": "Nov 01, 05:00 PM",
+    "isForecast": false,
+    "cityAverage": 34.09,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 39.5,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 40.81,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 27.03,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T18:00:00+05:30",
+    "displayTime": "Nov 01, 06:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.4,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 44.53,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 33.02,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.41,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 29.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T19:00:00+05:30",
+    "displayTime": "Nov 01, 07:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.66,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 44.02,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 32.81,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.41,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 31.39,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T20:00:00+05:30",
+    "displayTime": "Nov 01, 08:00 PM",
+    "isForecast": false,
+    "cityAverage": 38.49,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 53.63,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 45.69,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 23.0,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 31.64,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T21:00:00+05:30",
+    "displayTime": "Nov 01, 09:00 PM",
+    "isForecast": false,
+    "cityAverage": 41.23,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 60.55,
+        "category": "Moderate",
+        "color": "#F59E0B",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 46.72,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 21.92,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 35.72,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T22:00:00+05:30",
+    "displayTime": "Nov 01, 10:00 PM",
+    "isForecast": false,
+    "cityAverage": 40.3,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 53.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 39.8,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 24.2,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 43.26,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-01T23:00:00+05:30",
+    "displayTime": "Nov 01, 11:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.39,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.84,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T00:00:00+05:30",
+    "displayTime": "Nov 02, 12:00 AM",
+    "isForecast": false,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T01:00:00+05:30",
+    "displayTime": "Nov 02, 01:00 AM",
+    "isForecast": false,
+    "cityAverage": 37.65,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 40.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 35.04,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 25.96,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 48.73,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T02:00:00+05:30",
+    "displayTime": "Nov 02, 02:00 AM",
+    "isForecast": false,
+    "cityAverage": 38.09,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 41.5,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 35.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 24.89,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 50.1,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T03:00:00+05:30",
+    "displayTime": "Nov 02, 03:00 AM",
+    "isForecast": false,
+    "cityAverage": 35.78,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.5,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 33.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 27.4,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 46.34,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T04:00:00+05:30",
+    "displayTime": "Nov 02, 04:00 AM",
+    "isForecast": false,
+    "cityAverage": 35.06,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.36,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 29.79,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 29.39,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 45.68,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T05:00:00+05:30",
+    "displayTime": "Nov 02, 05:00 AM",
+    "isForecast": false,
+    "cityAverage": 35.19,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 38.88,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 33.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 45.71,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T06:00:00+05:30",
+    "displayTime": "Nov 02, 06:00 AM",
+    "isForecast": false,
+    "cityAverage": 36.83,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 40.46,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 40.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 25.06,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 41.78,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T07:00:00+05:30",
+    "displayTime": "Nov 02, 07:00 AM",
+    "isForecast": false,
+    "cityAverage": 36.0,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 41.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 36.4,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 25.38,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 40.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T08:00:00+05:30",
+    "displayTime": "Nov 02, 08:00 AM",
+    "isForecast": false,
+    "cityAverage": 34.89,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 43.76,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 37.55,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.33,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 37.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T09:00:00+05:30",
+    "displayTime": "Nov 02, 09:00 AM",
+    "isForecast": false,
+    "cityAverage": 36.7,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 45.95,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 42.52,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.44,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 35.88,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T10:00:00+05:30",
+    "displayTime": "Nov 02, 10:00 AM",
+    "isForecast": false,
+    "cityAverage": 36.19,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 43.41,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 45.59,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.31,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 33.44,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T11:00:00+05:30",
+    "displayTime": "Nov 02, 11:00 AM",
+    "isForecast": false,
+    "cityAverage": 33.95,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 44.22,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 39.97,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 18.33,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 33.29,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T12:00:00+05:30",
+    "displayTime": "Nov 02, 12:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.81,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 41.7,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 38.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 15.97,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 35.55,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T13:00:00+05:30",
+    "displayTime": "Nov 02, 01:00 PM",
+    "isForecast": false,
+    "cityAverage": 28.79,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.82,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 36.72,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 12.91,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 31.7,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T14:00:00+05:30",
+    "displayTime": "Nov 02, 02:00 PM",
+    "isForecast": false,
+    "cityAverage": 23.03,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 29.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 23.89,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 11.87,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 26.73,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T15:00:00+05:30",
+    "displayTime": "Nov 02, 03:00 PM",
+    "isForecast": false,
+    "cityAverage": 24.56,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 31.37,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 26.91,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 15.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 24.36,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T16:00:00+05:30",
+    "displayTime": "Nov 02, 04:00 PM",
+    "isForecast": false,
+    "cityAverage": 26.06,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 30.21,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 32.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 14.78,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 26.88,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T17:00:00+05:30",
+    "displayTime": "Nov 02, 05:00 PM",
+    "isForecast": false,
+    "cityAverage": 28.42,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 31.25,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 35.0,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 26.5,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T18:00:00+05:30",
+    "displayTime": "Nov 02, 06:00 PM",
+    "isForecast": false,
+    "cityAverage": 31.83,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 33.76,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 40.97,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 22.76,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 29.82,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T19:00:00+05:30",
+    "displayTime": "Nov 02, 07:00 PM",
+    "isForecast": false,
+    "cityAverage": 35.58,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 39.56,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 48.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 20.66,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 33.59,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T20:00:00+05:30",
+    "displayTime": "Nov 02, 08:00 PM",
+    "isForecast": false,
+    "cityAverage": 39.16,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 37.23,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 52.13,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 30.83,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 36.44,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T21:00:00+05:30",
+    "displayTime": "Nov 02, 09:00 PM",
+    "isForecast": false,
+    "cityAverage": 41.0,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 39.76,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 53.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 29.24,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 41.14,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T22:00:00+05:30",
+    "displayTime": "Nov 02, 10:00 PM",
+    "isForecast": false,
+    "cityAverage": 43.71,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 42.78,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "11611": {
+        "value": 57.02,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409510": {
+        "value": 30.04,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      },
+      "3409511": {
+        "value": 45.0,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "HISTORICAL_OBSERVED"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-02T23:00:00+05:30",
+    "displayTime": "Nov 02, 11:00 PM",
+    "isForecast": false,
+    "cityAverage": 32.39,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.84,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T00:00:00+05:30",
+    "displayTime": "Nov 03, 12:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T01:00:00+05:30",
+    "displayTime": "Nov 03, 01:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.22,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 33.37,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 28.64,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.91,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.94,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T02:00:00+05:30",
+    "displayTime": "Nov 03, 02:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.83,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.53,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.05,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.22,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T03:00:00+05:30",
+    "displayTime": "Nov 03, 03:00 AM",
+    "isForecast": true,
+    "cityAverage": 29.54,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 30.4,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.13,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.12,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 34.49,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T04:00:00+05:30",
+    "displayTime": "Nov 03, 04:00 AM",
+    "isForecast": true,
+    "cityAverage": 28.43,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 29.58,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 25.47,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.41,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T05:00:00+05:30",
+    "displayTime": "Nov 03, 05:00 AM",
+    "isForecast": true,
+    "cityAverage": 27.25,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.55,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 30.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T06:00:00+05:30",
+    "displayTime": "Nov 03, 06:00 AM",
+    "isForecast": true,
+    "cityAverage": 27.86,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 30.33,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.56,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T07:00:00+05:30",
+    "displayTime": "Nov 03, 07:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.27,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 34.88,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 27.3,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.06,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.82,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T08:00:00+05:30",
+    "displayTime": "Nov 03, 08:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.6,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 38.71,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.75,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.37,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 33.58,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T09:00:00+05:30",
+    "displayTime": "Nov 03, 09:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.5,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 39.48,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.39,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 29.04,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T10:00:00+05:30",
+    "displayTime": "Nov 03, 10:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.44,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 36.43,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 25.44,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.74,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.14,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T11:00:00+05:30",
+    "displayTime": "Nov 03, 11:00 AM",
+    "isForecast": true,
+    "cityAverage": 29.45,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 35.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.61,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.56,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 30.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T12:00:00+05:30",
+    "displayTime": "Nov 03, 12:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.17,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 21.81,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.86,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.21,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T13:00:00+05:30",
+    "displayTime": "Nov 03, 01:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.59,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 34.12,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 20.79,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.08,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T14:00:00+05:30",
+    "displayTime": "Nov 03, 02:00 PM",
+    "isForecast": true,
+    "cityAverage": 27.83,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.18,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 19.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.6,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T15:00:00+05:30",
+    "displayTime": "Nov 03, 03:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.55,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.49,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.45,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 33.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T16:00:00+05:30",
+    "displayTime": "Nov 03, 04:00 PM",
+    "isForecast": true,
+    "cityAverage": 26.89,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 32.33,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.14,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.54,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T17:00:00+05:30",
+    "displayTime": "Nov 03, 05:00 PM",
+    "isForecast": true,
+    "cityAverage": 26.72,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 32.83,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 21.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.12,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T18:00:00+05:30",
+    "displayTime": "Nov 03, 06:00 PM",
+    "isForecast": true,
+    "cityAverage": 27.09,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 32.77,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.64,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.31,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T19:00:00+05:30",
+    "displayTime": "Nov 03, 07:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.65,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 33.15,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.35,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.72,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.39,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T20:00:00+05:30",
+    "displayTime": "Nov 03, 08:00 PM",
+    "isForecast": true,
+    "cityAverage": 29.6,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 33.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.13,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.64,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T21:00:00+05:30",
+    "displayTime": "Nov 03, 09:00 PM",
+    "isForecast": true,
+    "cityAverage": 31.67,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.25,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 31.11,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 24.59,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 35.72,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T22:00:00+05:30",
+    "displayTime": "Nov 03, 10:00 PM",
+    "isForecast": true,
+    "cityAverage": 31.98,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.05,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.5,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-03T23:00:00+05:30",
+    "displayTime": "Nov 03, 11:00 PM",
+    "isForecast": true,
+    "cityAverage": 32.39,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.84,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T00:00:00+05:30",
+    "displayTime": "Nov 04, 12:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T01:00:00+05:30",
+    "displayTime": "Nov 04, 01:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.22,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 33.37,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 28.64,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.91,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.94,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T02:00:00+05:30",
+    "displayTime": "Nov 04, 02:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.83,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.53,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.05,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.22,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T03:00:00+05:30",
+    "displayTime": "Nov 04, 03:00 AM",
+    "isForecast": true,
+    "cityAverage": 29.54,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 30.4,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.13,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.12,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 34.49,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T04:00:00+05:30",
+    "displayTime": "Nov 04, 04:00 AM",
+    "isForecast": true,
+    "cityAverage": 28.43,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 29.58,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 25.47,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.41,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T05:00:00+05:30",
+    "displayTime": "Nov 04, 05:00 AM",
+    "isForecast": true,
+    "cityAverage": 27.25,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.55,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 30.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T06:00:00+05:30",
+    "displayTime": "Nov 04, 06:00 AM",
+    "isForecast": true,
+    "cityAverage": 27.86,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 30.33,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.56,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T07:00:00+05:30",
+    "displayTime": "Nov 04, 07:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.27,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 34.88,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 27.3,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.06,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.82,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T08:00:00+05:30",
+    "displayTime": "Nov 04, 08:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.6,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 38.71,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.75,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.37,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 33.58,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T09:00:00+05:30",
+    "displayTime": "Nov 04, 09:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.5,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 39.48,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.39,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 29.04,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T10:00:00+05:30",
+    "displayTime": "Nov 04, 10:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.44,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 36.43,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 25.44,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.74,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.14,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T11:00:00+05:30",
+    "displayTime": "Nov 04, 11:00 AM",
+    "isForecast": true,
+    "cityAverage": 29.45,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 35.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.61,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.56,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 30.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T12:00:00+05:30",
+    "displayTime": "Nov 04, 12:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.17,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 21.81,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.86,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.21,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T13:00:00+05:30",
+    "displayTime": "Nov 04, 01:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.59,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 34.12,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 20.79,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.08,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T14:00:00+05:30",
+    "displayTime": "Nov 04, 02:00 PM",
+    "isForecast": true,
+    "cityAverage": 27.83,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.18,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 19.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.6,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T15:00:00+05:30",
+    "displayTime": "Nov 04, 03:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.55,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.49,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.45,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 33.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T16:00:00+05:30",
+    "displayTime": "Nov 04, 04:00 PM",
+    "isForecast": true,
+    "cityAverage": 26.89,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 32.33,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.14,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.54,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T17:00:00+05:30",
+    "displayTime": "Nov 04, 05:00 PM",
+    "isForecast": true,
+    "cityAverage": 26.72,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 32.83,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 21.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.12,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T18:00:00+05:30",
+    "displayTime": "Nov 04, 06:00 PM",
+    "isForecast": true,
+    "cityAverage": 27.09,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 32.77,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.64,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.31,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T19:00:00+05:30",
+    "displayTime": "Nov 04, 07:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.65,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 33.15,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.35,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.72,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.39,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T20:00:00+05:30",
+    "displayTime": "Nov 04, 08:00 PM",
+    "isForecast": true,
+    "cityAverage": 29.6,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 33.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.13,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.64,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T21:00:00+05:30",
+    "displayTime": "Nov 04, 09:00 PM",
+    "isForecast": true,
+    "cityAverage": 31.67,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.25,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 31.11,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 24.59,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 35.72,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T22:00:00+05:30",
+    "displayTime": "Nov 04, 10:00 PM",
+    "isForecast": true,
+    "cityAverage": 31.98,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.05,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.5,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-04T23:00:00+05:30",
+    "displayTime": "Nov 04, 11:00 PM",
+    "isForecast": true,
+    "cityAverage": 32.39,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.84,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T00:00:00+05:30",
+    "displayTime": "Nov 05, 12:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T01:00:00+05:30",
+    "displayTime": "Nov 05, 01:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.22,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 33.37,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 28.64,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.91,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.94,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T02:00:00+05:30",
+    "displayTime": "Nov 05, 02:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.83,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.53,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.05,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.22,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T03:00:00+05:30",
+    "displayTime": "Nov 05, 03:00 AM",
+    "isForecast": true,
+    "cityAverage": 29.54,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 30.4,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.13,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.12,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 34.49,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T04:00:00+05:30",
+    "displayTime": "Nov 05, 04:00 AM",
+    "isForecast": true,
+    "cityAverage": 28.43,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 29.58,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 25.47,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.41,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T05:00:00+05:30",
+    "displayTime": "Nov 05, 05:00 AM",
+    "isForecast": true,
+    "cityAverage": 27.25,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.55,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 30.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T06:00:00+05:30",
+    "displayTime": "Nov 05, 06:00 AM",
+    "isForecast": true,
+    "cityAverage": 27.86,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 30.33,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.56,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T07:00:00+05:30",
+    "displayTime": "Nov 05, 07:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.27,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 34.88,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 27.3,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.06,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.82,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T08:00:00+05:30",
+    "displayTime": "Nov 05, 08:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.6,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 38.71,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.75,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.37,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 33.58,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T09:00:00+05:30",
+    "displayTime": "Nov 05, 09:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.5,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 39.48,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.39,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 29.04,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T10:00:00+05:30",
+    "displayTime": "Nov 05, 10:00 AM",
+    "isForecast": true,
+    "cityAverage": 30.44,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 36.43,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 25.44,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.74,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.14,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T11:00:00+05:30",
+    "displayTime": "Nov 05, 11:00 AM",
+    "isForecast": true,
+    "cityAverage": 29.45,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 35.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 23.61,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 28.56,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 30.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T12:00:00+05:30",
+    "displayTime": "Nov 05, 12:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.17,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 21.81,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.86,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.21,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T13:00:00+05:30",
+    "displayTime": "Nov 05, 01:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.59,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 34.12,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 20.79,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.08,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.38,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T14:00:00+05:30",
+    "displayTime": "Nov 05, 02:00 PM",
+    "isForecast": true,
+    "cityAverage": 27.83,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.18,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 19.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 32.6,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T15:00:00+05:30",
+    "displayTime": "Nov 05, 03:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.55,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 33.01,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.49,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.45,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 33.27,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T16:00:00+05:30",
+    "displayTime": "Nov 05, 04:00 PM",
+    "isForecast": true,
+    "cityAverage": 26.89,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 32.33,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.14,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.57,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.54,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T17:00:00+05:30",
+    "displayTime": "Nov 05, 05:00 PM",
+    "isForecast": true,
+    "cityAverage": 26.72,
+    "atmosphericPhase": "Active Arabian Sea Breeze Dispersal",
+    "windRegime": "WNW (Onshore)",
+    "stations": {
+      "11606": {
+        "value": 32.83,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 21.93,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.12,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.01,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T18:00:00+05:30",
+    "displayTime": "Nov 05, 06:00 PM",
+    "isForecast": true,
+    "cityAverage": 27.09,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 32.77,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 22.64,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.31,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 29.62,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T19:00:00+05:30",
+    "displayTime": "Nov 05, 07:00 PM",
+    "isForecast": true,
+    "cityAverage": 28.65,
+    "atmosphericPhase": "Morning Convective Boundary Transition",
+    "windRegime": "Variable",
+    "stations": {
+      "11606": {
+        "value": 33.15,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 26.35,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.72,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.39,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T20:00:00+05:30",
+    "displayTime": "Nov 05, 08:00 PM",
+    "isForecast": true,
+    "cityAverage": 29.6,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 33.92,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 29.7,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 23.13,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 31.64,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T21:00:00+05:30",
+    "displayTime": "Nov 05, 09:00 PM",
+    "isForecast": true,
+    "cityAverage": 31.67,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 35.25,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 31.11,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 24.59,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 35.72,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T22:00:00+05:30",
+    "displayTime": "Nov 05, 10:00 PM",
+    "isForecast": true,
+    "cityAverage": 31.98,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.86,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.05,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 25.5,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.51,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-05T23:00:00+05:30",
+    "displayTime": "Nov 05, 11:00 PM",
+    "isForecast": true,
+    "cityAverage": 32.39,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 34.85,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.09,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 26.84,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 37.79,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-06T00:00:00+05:30",
+    "displayTime": "Nov 06, 12:00 AM",
+    "isForecast": true,
+    "cityAverage": 32.24,
+    "atmosphericPhase": "Nocturnal Surface Inversion Trapping",
+    "windRegime": "ENE (Land Breeze)",
+    "stations": {
+      "11606": {
+        "value": 31.03,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "11611": {
+        "value": 30.84,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409510": {
+        "value": 27.85,
+        "category": "Good",
+        "color": "#10B981",
+        "status": "SYNOPTIC_INTERPOLATION"
+      },
+      "3409511": {
+        "value": 39.24,
+        "category": "Satisfactory",
+        "color": "#06B6D4",
+        "status": "SYNOPTIC_INTERPOLATION"
+      }
+    }
+  }
+]

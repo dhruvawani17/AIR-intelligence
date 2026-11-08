@@ -1,0 +1,874 @@
+{
+  "11606": {
+    "id": "11606",
+    "code": "BVI-01",
+    "name": "Borivali East, Mumbai",
+    "operator": "IITM - SAFAR",
+    "stationType": "Suburban / Park Boundary",
+    "lat": 19.23241,
+    "lon": 72.86895,
+    "zone": "North Mumbai",
+    "description": "Located near Sanjay Gandhi National Park, monitoring northern suburban background levels and traffic corridors.",
+    "elevationMeters": 28,
+    "sensorId": "openaq:12236418",
+    "metrics": {
+      "allTimeMean": 33.6,
+      "recentPostMonsoonMean": 51.2,
+      "minRecorded": 0.0,
+      "maxRecorded": 242.09,
+      "dataPoints": 12097,
+      "weekdayMean": 34.0,
+      "weekendMean": 32.63,
+      "peakHourIST": 9,
+      "cleanestHourIST": 5
+    },
+    "diurnalPattern": [
+      {
+        "hour": 0,
+        "mean": 31.03,
+        "q25": 16.17,
+        "q75": 42.9,
+        "min": 7.0,
+        "max": 74.84
+      },
+      {
+        "hour": 1,
+        "mean": 33.37,
+        "q25": 17.02,
+        "q75": 44.33,
+        "min": 4.33,
+        "max": 181.78
+      },
+      {
+        "hour": 2,
+        "mean": 31.53,
+        "q25": 16.79,
+        "q75": 41.34,
+        "min": 4.62,
+        "max": 132.28
+      },
+      {
+        "hour": 3,
+        "mean": 30.4,
+        "q25": 16.6,
+        "q75": 40.67,
+        "min": 4.32,
+        "max": 149.58
+      },
+      {
+        "hour": 4,
+        "mean": 29.58,
+        "q25": 16.24,
+        "q75": 39.71,
+        "min": 4.62,
+        "max": 135.79
+      },
+      {
+        "hour": 5,
+        "mean": 29.01,
+        "q25": 15.65,
+        "q75": 38.79,
+        "min": 1.93,
+        "max": 158.45
+      },
+      {
+        "hour": 6,
+        "mean": 30.33,
+        "q25": 15.49,
+        "q75": 40.5,
+        "min": 3.36,
+        "max": 176.64
+      },
+      {
+        "hour": 7,
+        "mean": 34.88,
+        "q25": 17.48,
+        "q75": 48.7,
+        "min": 2.48,
+        "max": 206.2
+      },
+      {
+        "hour": 8,
+        "mean": 38.71,
+        "q25": 17.84,
+        "q75": 53.28,
+        "min": 4.67,
+        "max": 235.25
+      },
+      {
+        "hour": 9,
+        "mean": 39.48,
+        "q25": 19.12,
+        "q75": 54.08,
+        "min": 1.24,
+        "max": 242.09
+      },
+      {
+        "hour": 10,
+        "mean": 36.43,
+        "q25": 19.04,
+        "q75": 46.44,
+        "min": 5.14,
+        "max": 201.22
+      },
+      {
+        "hour": 11,
+        "mean": 35.38,
+        "q25": 19.14,
+        "q75": 48.84,
+        "min": 0.0,
+        "max": 157.27
+      },
+      {
+        "hour": 12,
+        "mean": 33.79,
+        "q25": 19.07,
+        "q75": 45.71,
+        "min": 0.02,
+        "max": 137.15
+      },
+      {
+        "hour": 13,
+        "mean": 34.12,
+        "q25": 19.59,
+        "q75": 46.6,
+        "min": 0.0,
+        "max": 124.69
+      },
+      {
+        "hour": 14,
+        "mean": 33.18,
+        "q25": 19.27,
+        "q75": 44.44,
+        "min": 0.0,
+        "max": 115.72
+      },
+      {
+        "hour": 15,
+        "mean": 33.01,
+        "q25": 18.77,
+        "q75": 43.9,
+        "min": 0.0,
+        "max": 156.13
+      },
+      {
+        "hour": 16,
+        "mean": 32.33,
+        "q25": 18.38,
+        "q75": 44.18,
+        "min": 0.0,
+        "max": 139.42
+      },
+      {
+        "hour": 17,
+        "mean": 32.83,
+        "q25": 18.61,
+        "q75": 44.51,
+        "min": 0.0,
+        "max": 122.68
+      },
+      {
+        "hour": 18,
+        "mean": 32.77,
+        "q25": 18.91,
+        "q75": 43.54,
+        "min": 0.38,
+        "max": 114.39
+      },
+      {
+        "hour": 19,
+        "mean": 33.15,
+        "q25": 18.68,
+        "q75": 43.83,
+        "min": 0.0,
+        "max": 128.17
+      },
+      {
+        "hour": 20,
+        "mean": 33.92,
+        "q25": 18.66,
+        "q75": 47.11,
+        "min": 1.24,
+        "max": 124.84
+      },
+      {
+        "hour": 21,
+        "mean": 35.25,
+        "q25": 18.26,
+        "q75": 50.39,
+        "min": 3.76,
+        "max": 129.14
+      },
+      {
+        "hour": 22,
+        "mean": 34.86,
+        "q25": 18.29,
+        "q75": 49.22,
+        "min": 6.29,
+        "max": 133.5
+      },
+      {
+        "hour": 23,
+        "mean": 34.85,
+        "q25": 17.87,
+        "q75": 47.17,
+        "min": 1.39,
+        "max": 125.93
+      }
+    ]
+  },
+  "11611": {
+    "id": "11611",
+    "code": "MLD-02",
+    "name": "Malad West, Mumbai",
+    "operator": "IITM - SAFAR",
+    "stationType": "Coastal Suburban",
+    "lat": 19.19709,
+    "lon": 72.82204,
+    "zone": "Western Suburbs",
+    "description": "High-density residential coastal hub subject to strong midday Arabian Sea breeze dispersal dynamics.",
+    "elevationMeters": 14,
+    "sensorId": "openaq:12236419",
+    "metrics": {
+      "allTimeMean": 25.59,
+      "recentPostMonsoonMean": 54.68,
+      "minRecorded": 0.0,
+      "maxRecorded": 479.18,
+      "dataPoints": 12200,
+      "weekdayMean": 25.8,
+      "weekendMean": 25.11,
+      "peakHourIST": 21,
+      "cleanestHourIST": 14
+    },
+    "diurnalPattern": [
+      {
+        "hour": 0,
+        "mean": 30.84,
+        "q25": 8.59,
+        "q75": 50.75,
+        "min": 1.94,
+        "max": 86.12
+      },
+      {
+        "hour": 1,
+        "mean": 28.64,
+        "q25": 7.61,
+        "q75": 41.73,
+        "min": 0.0,
+        "max": 161.66
+      },
+      {
+        "hour": 2,
+        "mean": 26.05,
+        "q25": 6.01,
+        "q75": 37.2,
+        "min": 0.0,
+        "max": 154.19
+      },
+      {
+        "hour": 3,
+        "mean": 26.13,
+        "q25": 5.31,
+        "q75": 37.28,
+        "min": 0.0,
+        "max": 435.56
+      },
+      {
+        "hour": 4,
+        "mean": 25.47,
+        "q25": 5.0,
+        "q75": 38.15,
+        "min": 0.0,
+        "max": 267.46
+      },
+      {
+        "hour": 5,
+        "mean": 23.57,
+        "q25": 5.26,
+        "q75": 36.4,
+        "min": 0.0,
+        "max": 164.86
+      },
+      {
+        "hour": 6,
+        "mean": 23.7,
+        "q25": 5.97,
+        "q75": 35.07,
+        "min": 0.0,
+        "max": 128.19
+      },
+      {
+        "hour": 7,
+        "mean": 27.3,
+        "q25": 7.84,
+        "q75": 42.26,
+        "min": 0.0,
+        "max": 122.63
+      },
+      {
+        "hour": 8,
+        "mean": 29.75,
+        "q25": 9.1,
+        "q75": 45.58,
+        "min": 0.0,
+        "max": 137.81
+      },
+      {
+        "hour": 9,
+        "mean": 29.39,
+        "q25": 9.18,
+        "q75": 44.2,
+        "min": 0.0,
+        "max": 128.71
+      },
+      {
+        "hour": 10,
+        "mean": 25.44,
+        "q25": 8.31,
+        "q75": 37.19,
+        "min": 0.0,
+        "max": 134.94
+      },
+      {
+        "hour": 11,
+        "mean": 23.61,
+        "q25": 7.44,
+        "q75": 34.74,
+        "min": 0.0,
+        "max": 106.23
+      },
+      {
+        "hour": 12,
+        "mean": 21.81,
+        "q25": 6.29,
+        "q75": 30.8,
+        "min": 0.0,
+        "max": 230.9
+      },
+      {
+        "hour": 13,
+        "mean": 20.79,
+        "q25": 5.42,
+        "q75": 28.02,
+        "min": 0.0,
+        "max": 337.14
+      },
+      {
+        "hour": 14,
+        "mean": 19.62,
+        "q25": 4.67,
+        "q75": 24.95,
+        "min": 0.0,
+        "max": 479.18
+      },
+      {
+        "hour": 15,
+        "mean": 22.49,
+        "q25": 4.77,
+        "q75": 30.53,
+        "min": 0.0,
+        "max": 429.47
+      },
+      {
+        "hour": 16,
+        "mean": 22.14,
+        "q25": 5.94,
+        "q75": 32.95,
+        "min": 0.0,
+        "max": 283.06
+      },
+      {
+        "hour": 17,
+        "mean": 21.93,
+        "q25": 5.99,
+        "q75": 33.52,
+        "min": 0.0,
+        "max": 254.1
+      },
+      {
+        "hour": 18,
+        "mean": 22.64,
+        "q25": 7.17,
+        "q75": 32.74,
+        "min": 0.0,
+        "max": 198.81
+      },
+      {
+        "hour": 19,
+        "mean": 26.35,
+        "q25": 9.5,
+        "q75": 40.51,
+        "min": 0.0,
+        "max": 124.99
+      },
+      {
+        "hour": 20,
+        "mean": 29.7,
+        "q25": 12.9,
+        "q75": 44.87,
+        "min": 0.0,
+        "max": 128.51
+      },
+      {
+        "hour": 21,
+        "mean": 31.11,
+        "q25": 13.32,
+        "q75": 45.49,
+        "min": 0.0,
+        "max": 138.26
+      },
+      {
+        "hour": 22,
+        "mean": 30.05,
+        "q25": 12.48,
+        "q75": 42.15,
+        "min": 0.0,
+        "max": 300.86
+      },
+      {
+        "hour": 23,
+        "mean": 30.09,
+        "q25": 10.46,
+        "q75": 43.94,
+        "min": 0.0,
+        "max": 149.87
+      }
+    ]
+  },
+  "3409510": {
+    "id": "3409510",
+    "code": "BYC-03",
+    "name": "Byculla, Mumbai",
+    "operator": "BMC / MPCB",
+    "stationType": "Urban Commercial Core",
+    "lat": 18.9767,
+    "lon": 72.838,
+    "zone": "South Mumbai",
+    "description": "Central commercial-traffic artery in South Mumbai recording dense urban corridor vehicular emissions.",
+    "elevationMeters": 19,
+    "sensorId": "openaq:12238574",
+    "metrics": {
+      "allTimeMean": 26.27,
+      "recentPostMonsoonMean": 38.98,
+      "minRecorded": 0.0,
+      "maxRecorded": 320.78,
+      "dataPoints": 11548,
+      "weekdayMean": 26.51,
+      "weekendMean": 25.69,
+      "peakHourIST": 9,
+      "cleanestHourIST": 17
+    },
+    "diurnalPattern": [
+      {
+        "hour": 0,
+        "mean": 27.85,
+        "q25": 10.13,
+        "q75": 40.71,
+        "min": 3.42,
+        "max": 95.21
+      },
+      {
+        "hour": 1,
+        "mean": 28.91,
+        "q25": 12.14,
+        "q75": 38.43,
+        "min": 0.0,
+        "max": 245.05
+      },
+      {
+        "hour": 2,
+        "mean": 28.22,
+        "q25": 11.19,
+        "q75": 37.75,
+        "min": 0.0,
+        "max": 223.99
+      },
+      {
+        "hour": 3,
+        "mean": 27.12,
+        "q25": 10.28,
+        "q75": 37.59,
+        "min": 0.0,
+        "max": 183.65
+      },
+      {
+        "hour": 4,
+        "mean": 26.41,
+        "q25": 9.8,
+        "q75": 35.59,
+        "min": 0.0,
+        "max": 170.37
+      },
+      {
+        "hour": 5,
+        "mean": 25.55,
+        "q25": 9.35,
+        "q75": 31.34,
+        "min": 0.0,
+        "max": 226.78
+      },
+      {
+        "hour": 6,
+        "mean": 25.85,
+        "q25": 9.09,
+        "q75": 33.89,
+        "min": 0.0,
+        "max": 163.16
+      },
+      {
+        "hour": 7,
+        "mean": 27.06,
+        "q25": 9.78,
+        "q75": 36.96,
+        "min": 0.0,
+        "max": 134.31
+      },
+      {
+        "hour": 8,
+        "mean": 28.37,
+        "q25": 10.09,
+        "q75": 39.11,
+        "min": 0.0,
+        "max": 178.28
+      },
+      {
+        "hour": 9,
+        "mean": 29.04,
+        "q25": 11.09,
+        "q75": 40.24,
+        "min": 0.0,
+        "max": 117.72
+      },
+      {
+        "hour": 10,
+        "mean": 28.74,
+        "q25": 11.83,
+        "q75": 39.81,
+        "min": 0.0,
+        "max": 112.65
+      },
+      {
+        "hour": 11,
+        "mean": 28.56,
+        "q25": 12.89,
+        "q75": 38.08,
+        "min": 0.0,
+        "max": 115.62
+      },
+      {
+        "hour": 12,
+        "mean": 27.86,
+        "q25": 12.72,
+        "q75": 36.92,
+        "min": 0.0,
+        "max": 115.56
+      },
+      {
+        "hour": 13,
+        "mean": 27.08,
+        "q25": 13.07,
+        "q75": 34.87,
+        "min": 0.0,
+        "max": 112.58
+      },
+      {
+        "hour": 14,
+        "mean": 25.93,
+        "q25": 13.04,
+        "q75": 33.66,
+        "min": 0.0,
+        "max": 100.63
+      },
+      {
+        "hour": 15,
+        "mean": 25.45,
+        "q25": 12.04,
+        "q75": 33.62,
+        "min": 2.0,
+        "max": 94.63
+      },
+      {
+        "hour": 16,
+        "mean": 23.57,
+        "q25": 11.03,
+        "q75": 29.28,
+        "min": 0.0,
+        "max": 92.31
+      },
+      {
+        "hour": 17,
+        "mean": 23.12,
+        "q25": 11.23,
+        "q75": 29.02,
+        "min": 0.0,
+        "max": 97.44
+      },
+      {
+        "hour": 18,
+        "mean": 23.31,
+        "q25": 10.66,
+        "q75": 30.23,
+        "min": 2.21,
+        "max": 88.47
+      },
+      {
+        "hour": 19,
+        "mean": 23.72,
+        "q25": 10.83,
+        "q75": 31.58,
+        "min": 0.0,
+        "max": 184.74
+      },
+      {
+        "hour": 20,
+        "mean": 23.13,
+        "q25": 11.34,
+        "q75": 31.79,
+        "min": 0.0,
+        "max": 82.66
+      },
+      {
+        "hour": 21,
+        "mean": 24.59,
+        "q25": 12.0,
+        "q75": 31.74,
+        "min": 0.0,
+        "max": 320.78
+      },
+      {
+        "hour": 22,
+        "mean": 25.5,
+        "q25": 12.35,
+        "q75": 31.96,
+        "min": 0.0,
+        "max": 317.42
+      },
+      {
+        "hour": 23,
+        "mean": 26.84,
+        "q25": 12.21,
+        "q75": 33.46,
+        "min": 0.0,
+        "max": 256.45
+      }
+    ]
+  },
+  "3409511": {
+    "id": "3409511",
+    "code": "SHV-04",
+    "name": "Shivaji Nagar, Mumbai",
+    "operator": "BMC / MPCB",
+    "stationType": "Industrial / Residential Mixed",
+    "lat": 19.060498,
+    "lon": 72.923356,
+    "zone": "Eastern Suburbs",
+    "description": "Eastern industrial-belt station near Govandi and Deonar, exhibiting pronounced nocturnal boundary layer peaks.",
+    "elevationMeters": 22,
+    "sensorId": "openaq:12238575",
+    "metrics": {
+      "allTimeMean": 32.78,
+      "recentPostMonsoonMean": 52.96,
+      "minRecorded": 0.0,
+      "maxRecorded": 498.17,
+      "dataPoints": 11947,
+      "weekdayMean": 32.63,
+      "weekendMean": 33.15,
+      "peakHourIST": 0,
+      "cleanestHourIST": 17
+    },
+    "diurnalPattern": [
+      {
+        "hour": 0,
+        "mean": 39.24,
+        "q25": 23.44,
+        "q75": 55.06,
+        "min": 13.3,
+        "max": 117.67
+      },
+      {
+        "hour": 1,
+        "mean": 37.94,
+        "q25": 20.39,
+        "q75": 46.5,
+        "min": 0.0,
+        "max": 232.77
+      },
+      {
+        "hour": 2,
+        "mean": 37.51,
+        "q25": 18.42,
+        "q75": 44.86,
+        "min": 0.0,
+        "max": 430.09
+      },
+      {
+        "hour": 3,
+        "mean": 34.49,
+        "q25": 16.62,
+        "q75": 42.57,
+        "min": 0.0,
+        "max": 373.32
+      },
+      {
+        "hour": 4,
+        "mean": 32.27,
+        "q25": 15.21,
+        "q75": 41.47,
+        "min": 0.0,
+        "max": 162.28
+      },
+      {
+        "hour": 5,
+        "mean": 30.86,
+        "q25": 13.66,
+        "q75": 39.23,
+        "min": 0.0,
+        "max": 138.04
+      },
+      {
+        "hour": 6,
+        "mean": 31.56,
+        "q25": 12.41,
+        "q75": 41.65,
+        "min": 0.0,
+        "max": 483.14
+      },
+      {
+        "hour": 7,
+        "mean": 31.82,
+        "q25": 11.83,
+        "q75": 42.54,
+        "min": 0.0,
+        "max": 493.17
+      },
+      {
+        "hour": 8,
+        "mean": 33.58,
+        "q25": 12.51,
+        "q75": 44.22,
+        "min": 0.0,
+        "max": 488.07
+      },
+      {
+        "hour": 9,
+        "mean": 32.09,
+        "q25": 12.4,
+        "q75": 42.02,
+        "min": 0.0,
+        "max": 494.48
+      },
+      {
+        "hour": 10,
+        "mean": 31.14,
+        "q25": 12.62,
+        "q75": 41.44,
+        "min": 0.0,
+        "max": 466.08
+      },
+      {
+        "hour": 11,
+        "mean": 30.27,
+        "q25": 12.75,
+        "q75": 39.25,
+        "min": 0.0,
+        "max": 358.68
+      },
+      {
+        "hour": 12,
+        "mean": 29.21,
+        "q25": 14.2,
+        "q75": 38.38,
+        "min": 0.0,
+        "max": 310.02
+      },
+      {
+        "hour": 13,
+        "mean": 32.38,
+        "q25": 15.14,
+        "q75": 37.6,
+        "min": 0.0,
+        "max": 460.5
+      },
+      {
+        "hour": 14,
+        "mean": 32.6,
+        "q25": 15.05,
+        "q75": 36.79,
+        "min": 0.0,
+        "max": 470.43
+      },
+      {
+        "hour": 15,
+        "mean": 33.27,
+        "q25": 14.65,
+        "q75": 35.95,
+        "min": 0.0,
+        "max": 498.17
+      },
+      {
+        "hour": 16,
+        "mean": 29.54,
+        "q25": 14.83,
+        "q75": 35.48,
+        "min": 0.0,
+        "max": 376.6
+      },
+      {
+        "hour": 17,
+        "mean": 29.01,
+        "q25": 16.71,
+        "q75": 35.84,
+        "min": 0.0,
+        "max": 248.7
+      },
+      {
+        "hour": 18,
+        "mean": 29.62,
+        "q25": 17.68,
+        "q75": 37.03,
+        "min": 0.0,
+        "max": 117.54
+      },
+      {
+        "hour": 19,
+        "mean": 31.39,
+        "q25": 17.82,
+        "q75": 38.07,
+        "min": 0.0,
+        "max": 294.44
+      },
+      {
+        "hour": 20,
+        "mean": 31.64,
+        "q25": 17.86,
+        "q75": 37.46,
+        "min": 0.0,
+        "max": 220.01
+      },
+      {
+        "hour": 21,
+        "mean": 35.72,
+        "q25": 19.96,
+        "q75": 40.61,
+        "min": 0.0,
+        "max": 454.5
+      },
+      {
+        "hour": 22,
+        "mean": 37.51,
+        "q25": 20.97,
+        "q75": 41.63,
+        "min": 0.0,
+        "max": 481.91
+      },
+      {
+        "hour": 23,
+        "mean": 37.79,
+        "q25": 21.24,
+        "q75": 44.46,
+        "min": 0.0,
+        "max": 208.49
+      }
+    ]
+  }
+}
