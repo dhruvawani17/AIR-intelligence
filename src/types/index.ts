@@ -15,6 +15,7 @@ export interface StationMeta {
     recentPostMonsoonMean: number;
     minRecorded: number;
     maxRecorded: number;
+    diwaliRecordedPeak?: number;
     dataPoints: number;
     weekdayMean: number;
     weekendMean: number;
@@ -35,7 +36,7 @@ export interface StationFrameData {
   value: number;
   category: "Good" | "Satisfactory" | "Moderate" | "Poor" | "Very Poor" | "Severe";
   color: string;
-  status: "HISTORICAL_OBSERVED" | "GROUND_TRUTH_VERIFIED" | "ML_HARMONIC_FORECAST" | "SYNOPTIC_INTERPOLATION";
+  status: "HISTORICAL_OBSERVED" | "GROUND_TRUTH_VERIFIED" | "ML_HARMONIC_FORECAST" | "ML_CHAMPION_FORECAST" | "SYNOPTIC_INTERPOLATION";
 }
 
 export interface TimelineFrame {

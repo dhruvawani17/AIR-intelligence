@@ -48,6 +48,10 @@ export const ForecastChart: React.FC<ForecastChartProps> = ({
 
       if (f.isForecast && forecastStartIndex === -1) {
         forecastStartIndex = idx;
+        // Connect the previous observed point so the curve is seamlessly continuous
+        if (idx > 0 && actualData[idx - 1] !== null) {
+          predictedData[idx - 1] = actualData[idx - 1];
+        }
       }
 
       if (stData.status === "HISTORICAL_OBSERVED" || stData.status === "GROUND_TRUTH_VERIFIED") {
