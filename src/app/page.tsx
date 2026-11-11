@@ -44,7 +44,7 @@ export default function Home() {
   const currentFrame = timelineData[currentTimelineIndex] || timelineData[0];
 
   return (
-    <main className="min-h-screen bg-[#f2f2f1] text-[#1d1d1d] flex flex-col selection:bg-[#1d1d1d] selection:text-white">
+    <main className="min-h-screen bg-[#fafaf9] text-[#18181b] flex flex-col selection:bg-[#18181b] selection:text-white">
       {/* 1. Cinematic Wild Pill Hero with MUMBAI split-pill reveal */}
       <WildPillHero
         stations={stationsData}
@@ -66,20 +66,20 @@ export default function Home() {
         className="w-full max-w-7xl mx-auto px-4 lg:px-8 py-8 space-y-8 flex-1"
       >
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 border-b border-[#e5e5e3] pb-4">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 border-b border-[#e4e4e7] pb-4">
           <div>
             <div className="inline-flex items-center gap-2 text-[11px] font-mono text-cyan-800 uppercase tracking-wider font-semibold">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               Air Quality Intelligence System · 4 CAAQMS Stations · Rank 1 Globally
             </div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#1d1d1d] tracking-tight pt-1">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#18181b] tracking-tight pt-1">
               Mumbai Environmental Diagnostics &amp; Forecasting Command Center
             </h2>
           </div>
 
-          <div className="flex items-center gap-2 text-xs font-mono text-[#52525b]">
+          <div className="flex items-center gap-2 text-xs font-mono text-[#71717a]">
             <span>Selected Horizon:</span>
-            <span className="text-indigo-900 font-bold bg-indigo-50/80 px-3 py-1 rounded-md border border-indigo-200 shadow-xs">
+            <span className="text-indigo-900 font-bold bg-indigo-50/80 px-3 py-1 rounded-md border border-indigo-200 shadow-2xs">
               {currentFrame.displayTime} IST
             </span>
           </div>

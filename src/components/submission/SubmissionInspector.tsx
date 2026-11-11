@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { StationMeta, TimelineFrame } from "@/types";
-import { Search, Database, CheckCircle, ShieldCheck, Filter, Download, Sparkles, ExternalLink } from "lucide-react";
+import { Search, Database, CheckCircle, Sparkles } from "lucide-react";
 
 interface SubmissionInspectorProps {
   stations: Record<string, StationMeta>;
@@ -75,15 +75,15 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
   const paginatedRows = filteredRows.slice((page - 1) * rowsPerPage, page * rowsPerPage);
 
   return (
-    <div className="bg-white border border-[#e5e5e3] rounded-2xl p-6 shadow-xs space-y-6">
+    <div className="bg-white border border-[#e4e4e7] rounded-2xl p-6 shadow-sm space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f0f0ee] pb-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f4f4f5] pb-4">
         <div>
           <div className="inline-flex items-center gap-2 text-xs font-mono text-cyan-800 uppercase tracking-wider font-semibold">
             <Database className="w-3.5 h-3.5 text-cyan-600" />
             Zindi Competition Telemetry Inspector
           </div>
-          <h3 className="text-xl font-bold text-[#1d1d1d] pt-1">
+          <h3 className="text-xl font-bold text-[#18181b] pt-1">
             Global Rank 1 Submission &amp; Ground Truth Records
           </h3>
           <p className="text-xs text-[#71717a] pt-0.5">
@@ -104,25 +104,25 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
 
       {/* Summary KPI Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#ebebe9]">
+        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#e4e4e7]">
           <div className="text-[10px] font-mono uppercase text-[#71717a]">Total Test Targets</div>
-          <div className="text-xl font-bold font-mono text-[#1d1d1d] pt-0.5">2,592 Rows</div>
+          <div className="text-xl font-bold font-mono text-[#18181b] pt-0.5">2,592 Rows</div>
           <div className="text-[10px] text-indigo-600 font-medium pt-1">Oct 22 - Nov 20, 2026</div>
         </div>
 
-        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#ebebe9]">
+        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#e4e4e7]">
           <div className="text-[10px] font-mono uppercase text-[#71717a]">Public Verified Ground Truth</div>
           <div className="text-xl font-bold font-mono text-emerald-600 pt-0.5">1,284 Rows</div>
           <div className="text-[10px] text-emerald-700 font-medium pt-1">100% Exact Match (RMSE = 0.0)</div>
         </div>
 
-        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#ebebe9]">
+        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#e4e4e7]">
           <div className="text-[10px] font-mono uppercase text-[#71717a]">Private Forecast Horizon</div>
           <div className="text-xl font-bold font-mono text-indigo-600 pt-0.5">1,308 Rows</div>
           <div className="text-[10px] text-indigo-700 font-medium pt-1">Multi-Frequency Harmonic Model</div>
         </div>
 
-        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#ebebe9]">
+        <div className="p-3.5 rounded-xl bg-[#fafaf9] border border-[#e4e4e7]">
           <div className="text-[10px] font-mono uppercase text-[#71717a]">Participating Stations</div>
           <div className="text-xl font-bold font-mono text-slate-800 pt-0.5">4 CAAQMS</div>
           <div className="text-[10px] text-[#71717a] font-medium pt-1">IITM SAFAR &amp; BMC MPCB</div>
@@ -130,7 +130,7 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
       </div>
 
       {/* Filter and Search Bar */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-[#fafaf9] p-3 rounded-xl border border-[#ebebe9]">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-[#fafaf9] p-3 rounded-xl border border-[#e4e4e7]">
         {/* Search Input */}
         <div className="relative w-full sm:w-72">
           <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-[#71717a]" />
@@ -142,7 +142,7 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
               setPage(1);
             }}
             placeholder="Search timestamp, station, or ID..."
-            className="w-full pl-9 pr-3 py-1.5 rounded-lg bg-white border border-[#dedede] text-xs text-[#1d1d1d] focus:outline-none"
+            className="w-full pl-9 pr-3 py-1.5 rounded-lg bg-white border border-[#dedede] text-xs text-[#18181b] focus:outline-none"
           />
         </div>
 
@@ -155,7 +155,7 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
               setSelectedStationFilter(e.target.value);
               setPage(1);
             }}
-            className="text-xs px-2.5 py-1.5 rounded-lg bg-white border border-[#dedede] text-[#1d1d1d] focus:outline-none"
+            className="text-xs px-2.5 py-1.5 rounded-lg bg-white border border-[#dedede] text-[#18181b] focus:outline-none"
           >
             <option value="all">All Stations</option>
             {Object.entries(stations).map(([id, st]) => (
@@ -172,7 +172,7 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
               setSelectedStatusFilter(e.target.value);
               setPage(1);
             }}
-            className="text-xs px-2.5 py-1.5 rounded-lg bg-white border border-[#dedede] text-[#1d1d1d] focus:outline-none"
+            className="text-xs px-2.5 py-1.5 rounded-lg bg-white border border-[#dedede] text-[#18181b] focus:outline-none"
           >
             <option value="all">All Telemetry Modes</option>
             <option value="verified">Verified Ground Truth Only</option>
@@ -182,9 +182,9 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
       </div>
 
       {/* Table */}
-      <div className="overflow-x-auto rounded-xl border border-[#e5e5e3]">
+      <div className="overflow-x-auto rounded-xl border border-[#e4e4e7]">
         <table className="w-full text-left text-xs">
-          <thead className="bg-[#f4f4f2] text-[#52525b] font-mono uppercase text-[10px] border-b border-[#e5e5e3]">
+          <thead className="bg-[#f8f9fa] text-[#52525b] font-mono uppercase text-[10px] border-b border-[#e4e4e7]">
             <tr>
               <th className="py-2.5 px-3">Station</th>
               <th className="py-2.5 px-3">Horizon (IST)</th>
@@ -193,11 +193,11 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
               <th className="py-2.5 px-3">Pipeline Status</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-[#f0f0ee] font-mono">
+          <tbody className="divide-y divide-[#f4f4f5] font-mono">
             {paginatedRows.length > 0 ? (
               paginatedRows.map((r, idx) => (
                 <tr key={idx} className="hover:bg-slate-50 transition-colors">
-                  <td className="py-2 px-3 font-semibold text-[#1d1d1d]">{r.stationName}</td>
+                  <td className="py-2 px-3 font-semibold text-[#18181b]">{r.stationName}</td>
                   <td className="py-2 px-3 text-[#52525b]">{r.displayTime}</td>
                   <td className="py-2 px-3 font-bold text-slate-900">
                     {r.value} <span className="text-[10px] text-[#71717a] font-normal">µg/m³</span>
@@ -244,14 +244,14 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
       <div className="flex items-center justify-between text-xs font-mono text-[#71717a] pt-1">
         <div>
           Showing {(page - 1) * rowsPerPage + 1} - {Math.min(page * rowsPerPage, filteredRows.length)} of{" "}
-          <span className="font-bold text-[#1d1d1d]">{filteredRows.length}</span> rows
+          <span className="font-bold text-[#18181b]">{filteredRows.length}</span> rows
         </div>
 
         <div className="flex items-center gap-1">
           <button
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
-            className="px-2.5 py-1 rounded bg-[#f4f4f2] hover:bg-[#eaeaec] disabled:opacity-40 text-[#1d1d1d] font-semibold border border-[#dedede]"
+            className="px-2.5 py-1 rounded bg-[#f4f4f5] hover:bg-[#e4e4e7] disabled:opacity-40 text-[#18181b] font-semibold border border-[#dedede]"
           >
             Prev
           </button>
@@ -261,7 +261,7 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
           <button
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page >= totalPages}
-            className="px-2.5 py-1 rounded bg-[#f4f4f2] hover:bg-[#eaeaec] disabled:opacity-40 text-[#1d1d1d] font-semibold border border-[#dedede]"
+            className="px-2.5 py-1 rounded bg-[#f4f4f5] hover:bg-[#e4e4e7] disabled:opacity-40 text-[#18181b] font-semibold border border-[#dedede]"
           >
             Next
           </button>
@@ -270,4 +270,3 @@ export const SubmissionInspector: React.FC<SubmissionInspectorProps> = ({ statio
     </div>
   );
 };
-

@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { StationMeta } from "@/types";
-import { Swords, ArrowRightLeft, TrendingUp, Compass, Mountain, ShieldCheck, AlertCircle } from "lucide-react";
+import { Swords, ArrowRightLeft } from "lucide-react";
 import ReactECharts from "echarts-for-react";
 
 interface StationDuelProps {
@@ -33,6 +33,12 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "line" },
+        backgroundColor: "rgba(255, 255, 255, 0.98)",
+        borderColor: "#E4E4E7",
+        borderWidth: 1,
+        textStyle: { color: "#18181B", fontSize: 11 },
+        shadowBlur: 10,
+        shadowColor: "rgba(0,0,0,0.06)",
         formatter: (params: any[]) => {
           let str = `<div class="font-bold text-xs mb-1 text-slate-800">${params[0].axisValue} IST</div>`;
           params.forEach((p) => {
@@ -50,7 +56,7 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
       legend: {
         data: [stationA.name.split(",")[0], stationB.name.split(",")[0], "Delta (A - B)"],
         top: 0,
-        textStyle: { fontSize: 11, color: "#52525b" },
+        textStyle: { fontSize: 11, color: "#71717A" },
       },
       grid: {
         top: 36,
@@ -61,21 +67,22 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
       xAxis: {
         type: "category",
         data: hours,
-        axisLabel: { fontSize: 10, color: "#71717a" },
+        axisLabel: { fontSize: 10, color: "#71717A" },
+        axisLine: { lineStyle: { color: "#E4E4E7" } },
       },
       yAxis: [
         {
           type: "value",
           name: "PM2.5 (µg/m³)",
-          nameTextStyle: { fontSize: 10, color: "#71717a" },
-          axisLabel: { fontSize: 10, color: "#71717a" },
-          splitLine: { lineStyle: { color: "#f1f1f0" } },
+          nameTextStyle: { fontSize: 10, color: "#71717A" },
+          axisLabel: { fontSize: 10, color: "#71717A" },
+          splitLine: { lineStyle: { color: "#F4F4F5" } },
         },
         {
           type: "value",
           name: "Delta",
-          nameTextStyle: { fontSize: 10, color: "#a1a1aa" },
-          axisLabel: { fontSize: 10, color: "#a1a1aa" },
+          nameTextStyle: { fontSize: 10, color: "#A1A1AA" },
+          axisLabel: { fontSize: 10, color: "#A1A1AA" },
           splitLine: { show: false },
         },
       ],
@@ -112,23 +119,20 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
     };
   }, [stationA, stationB]);
 
-  // Metric Deltas
-  const meanDiff = Math.round((stationA.metrics.allTimeMean - stationB.metrics.allTimeMean) * 10) / 10;
   const recentDiff = Math.round((stationA.metrics.recentPostMonsoonMean - stationB.metrics.recentPostMonsoonMean) * 10) / 10;
   const diwaliPeakA = stationA.metrics.diwaliRecordedPeak || 0;
   const diwaliPeakB = stationB.metrics.diwaliRecordedPeak || 0;
-  const diwaliDiff = Math.round((diwaliPeakA - diwaliPeakB) * 10) / 10;
 
   return (
-    <div className="bg-white border border-[#e5e5e3] rounded-2xl p-6 shadow-xs space-y-6">
+    <div className="bg-white border border-[#e4e4e7] rounded-2xl p-6 shadow-sm space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f0f0ee] pb-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f4f4f5] pb-4">
         <div>
           <div className="inline-flex items-center gap-2 text-xs font-mono text-cyan-800 uppercase tracking-wider font-semibold">
             <Swords className="w-3.5 h-3.5 text-cyan-700" />
             Microclimate Comparative Analytics
           </div>
-          <h3 className="text-xl font-bold text-[#1d1d1d] pt-1">
+          <h3 className="text-xl font-bold text-[#18181b] pt-1">
             Station Duel: Side-by-Side Environmental Diagnostics
           </h3>
           <p className="text-xs text-[#71717a] pt-0.5">
@@ -154,7 +158,7 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
           {/* Swap Button */}
           <button
             onClick={handleSwap}
-            className="p-2 rounded-xl border border-[#dedede] bg-[#f4f4f2] hover:bg-[#eaeaec] text-[#52525b] hover:text-[#1d1d1d] transition-colors"
+            className="p-2 rounded-xl border border-[#dedede] bg-[#f4f4f5] hover:bg-[#e4e4e7] text-[#52525b] hover:text-[#18181b] transition-colors"
             title="Swap stations"
           >
             <ArrowRightLeft className="w-4 h-4" />
@@ -184,7 +188,7 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
               <span className="text-[10px] font-mono uppercase tracking-wider font-bold text-emerald-700 bg-emerald-100/60 px-2 py-0.5 rounded">
                 Station A · {stationA.code}
               </span>
-              <h4 className="text-base font-bold text-[#1d1d1d] pt-1">{stationA.name}</h4>
+              <h4 className="text-base font-bold text-[#18181b] pt-1">{stationA.name}</h4>
             </div>
             <div className="text-right font-mono">
               <div className="text-xs text-[#71717a]">Post-Monsoon Mean</div>
@@ -199,11 +203,11 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
           <div className="grid grid-cols-3 gap-2 pt-1 border-t border-emerald-100/60 text-xs">
             <div>
               <span className="text-[10px] text-[#71717a] block">Zone</span>
-              <span className="font-semibold text-[#1d1d1d]">{stationA.zone}</span>
+              <span className="font-semibold text-[#18181b]">{stationA.zone}</span>
             </div>
             <div>
               <span className="text-[10px] text-[#71717a] block">Elevation</span>
-              <span className="font-semibold text-[#1d1d1d]">{stationA.elevationMeters}m</span>
+              <span className="font-semibold text-[#18181b]">{stationA.elevationMeters}m</span>
             </div>
             <div>
               <span className="text-[10px] text-[#71717a] block">Diwali Peak</span>
@@ -219,7 +223,7 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
               <span className="text-[10px] font-mono uppercase tracking-wider font-bold text-rose-700 bg-rose-100/60 px-2 py-0.5 rounded">
                 Station B · {stationB.code}
               </span>
-              <h4 className="text-base font-bold text-[#1d1d1d] pt-1">{stationB.name}</h4>
+              <h4 className="text-base font-bold text-[#18181b] pt-1">{stationB.name}</h4>
             </div>
             <div className="text-right font-mono">
               <div className="text-xs text-[#71717a]">Post-Monsoon Mean</div>
@@ -234,11 +238,11 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
           <div className="grid grid-cols-3 gap-2 pt-1 border-t border-rose-100/60 text-xs">
             <div>
               <span className="text-[10px] text-[#71717a] block">Zone</span>
-              <span className="font-semibold text-[#1d1d1d]">{stationB.zone}</span>
+              <span className="font-semibold text-[#18181b]">{stationB.zone}</span>
             </div>
             <div>
               <span className="text-[10px] text-[#71717a] block">Elevation</span>
-              <span className="font-semibold text-[#1d1d1d]">{stationB.elevationMeters}m</span>
+              <span className="font-semibold text-[#18181b]">{stationB.elevationMeters}m</span>
             </div>
             <div>
               <span className="text-[10px] text-[#71717a] block">Diwali Peak</span>
@@ -249,7 +253,7 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
       </div>
 
       {/* Duel EChart: Diurnal Curve Overlay & Hourly Delta */}
-      <div className="bg-[#fafaf9] p-4 rounded-xl border border-[#ebebe9] space-y-2">
+      <div className="bg-[#fafaf9] p-4 rounded-xl border border-[#e4e4e7] space-y-2">
         <div className="flex items-center justify-between">
           <div className="text-xs font-mono font-bold text-[#3f3f46]">
             24-Hour Diurnal Profile Comparison &amp; Delta (A vs B)
@@ -268,4 +272,3 @@ export const StationDuel: React.FC<StationDuelProps> = ({ stations }) => {
     </div>
   );
 };
-

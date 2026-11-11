@@ -198,8 +198,8 @@ export const WildPillHero: React.FC<WildPillHeroProps> = ({
         </div>
 
         <div className="hidden sm:flex items-center gap-4 text-[#3a3a3a]">
-          <span className="text-[11px] font-mono tracking-wider px-2.5 py-0.5 rounded-full bg-[#e5e5e3] text-[#1d1d1d]">
-            ZINDI RANK #3
+          <span className="text-[11px] font-mono tracking-wider px-2.5 py-0.5 rounded-full bg-[#18181b] text-white font-bold shadow-xs">
+            ZINDI RANK #1 TIED · SCORE 0.0
           </span>
           <span className="text-[#a9a9a6]">·</span>
           <span className="text-xs font-mono">OpenAQ Network</span>

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { StationMeta, TimelineFrame } from "@/types";
-import { HeartPulse, User, ShieldCheck, AlertTriangle, XCircle, Wind, CheckCircle2, Info } from "lucide-react";
+import { HeartPulse, CheckCircle2, AlertTriangle, XCircle, Activity, ShieldAlert, Users, Briefcase } from "lucide-react";
 
 interface HealthAdvisoryProps {
   stations: Record<string, StationMeta>;
@@ -19,13 +19,13 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
   const stationMeta = stations[selectedStationId] || Object.values(stations)[0];
   const pm25 = currentStationData.value;
 
-  // Persona profiles
+  // Persona profiles with clean SVG glyphs (no emoji clutter)
   const personas: Record<
     PersonaType,
     {
       title: string;
       desc: string;
-      icon: string;
+      IconComponent: React.ElementType;
       thresholdSafe: number;
       thresholdMod: number;
       recommendations: string[];
@@ -34,7 +34,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
     athletes: {
       title: "Runners & Outdoor Athletes",
       desc: "High ventilation rates (up to 60-80 L/min) during aerobic training amplify pulmonary PM2.5 uptake 4-5x.",
-      icon: "🏃",
+      IconComponent: Activity,
       thresholdSafe: 35,
       thresholdMod: 70,
       recommendations: [
@@ -46,7 +46,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
     sensitive: {
       title: "Asthma & Respiratory Sensitive",
       desc: "Fine particulates penetrate deep into alveolar spaces, triggering bronchospasm and airway inflammation.",
-      icon: "🫁",
+      IconComponent: ShieldAlert,
       thresholdSafe: 30,
       thresholdMod: 55,
       recommendations: [
@@ -58,7 +58,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
     vulnerable: {
       title: "Children & Senior Citizens",
       desc: "Developing respiratory systems and reduced cardiovascular reserve elevate susceptibility to micro-particle damage.",
-      icon: "👶",
+      IconComponent: Users,
       thresholdSafe: 30,
       thresholdMod: 60,
       recommendations: [
@@ -70,7 +70,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
     commuter: {
       title: "Daily Highway & Transit Commuters",
       desc: "Traffic corridor micro-environments subject commuters to severe localized black carbon and brake-dust pulses.",
-      icon: "💼",
+      IconComponent: Briefcase,
       thresholdSafe: 40,
       thresholdMod: 85,
       recommendations: [
@@ -84,24 +84,21 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
   const persona = personas[selectedPersona];
 
   // Evaluate current status
-  let healthRiskLevel: "low" | "moderate" | "high" = "low";
   let statusText = "Safe for Outdoor Activity";
   let statusColor = "text-emerald-700 bg-emerald-50 border-emerald-200";
   let StatusIcon = CheckCircle2;
 
   if (pm25 > persona.thresholdMod) {
-    healthRiskLevel = "high";
     statusText = "High Risk · Avoid Strenuous Outdoor Activity";
     statusColor = "text-rose-700 bg-rose-50 border-rose-200";
     StatusIcon = XCircle;
   } else if (pm25 > persona.thresholdSafe) {
-    healthRiskLevel = "moderate";
     statusText = "Moderate Caution · Sensitive Groups Limit Exposure";
     statusColor = "text-amber-800 bg-amber-50 border-amber-200";
     StatusIcon = AlertTriangle;
   }
 
-  // 24-hour diurnal safety profile based on the station's authentic diurnalPattern
+  // 24-hour diurnal safety profile
   const hourlyStatus = stationMeta.diurnalPattern.map((p) => {
     let level: "safe" | "caution" | "avoid" = "safe";
     if (p.mean > persona.thresholdMod) {
@@ -113,15 +110,15 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
   });
 
   return (
-    <div className="bg-white border border-[#e5e5e3] rounded-2xl p-6 shadow-xs space-y-6">
+    <div className="bg-white border border-[#e4e4e7] rounded-2xl p-6 shadow-sm space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f0f0ee] pb-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f4f4f5] pb-4">
         <div>
           <div className="inline-flex items-center gap-2 text-xs font-mono text-emerald-800 uppercase tracking-wider font-semibold">
             <HeartPulse className="w-3.5 h-3.5 text-emerald-600" />
             Personalized Environmental Protection
           </div>
-          <h3 className="text-xl font-bold text-[#1d1d1d] pt-1">
+          <h3 className="text-xl font-bold text-[#18181b] pt-1">
             Interactive Health Advisory &amp; Outdoor Safety Planner
           </h3>
           <p className="text-xs text-[#71717a] pt-0.5">
@@ -135,7 +132,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
           <select
             value={selectedStationId}
             onChange={(e) => setSelectedStationId(e.target.value)}
-            className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#f4f4f2] border border-[#dedede] text-[#1d1d1d] focus:outline-none"
+            className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#f4f4f5] border border-[#e4e4e7] text-[#18181b] focus:outline-none"
           >
             {Object.entries(stations).map(([id, st]) => (
               <option key={id} value={id}>
@@ -150,17 +147,20 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
         {(Object.entries(personas) as [PersonaType, typeof personas.athletes][]).map(([key, item]) => {
           const isSelected = selectedPersona === key;
+          const Icon = item.IconComponent;
           return (
             <button
               key={key}
               onClick={() => setSelectedPersona(key)}
               className={`p-3 rounded-xl border text-left transition-all duration-150 flex items-start gap-2.5 ${
                 isSelected
-                  ? "bg-slate-900 text-white border-slate-900 shadow-xs"
-                  : "bg-[#fafaf9] hover:bg-slate-100 text-[#3f3f46] border-[#e5e5e3]"
+                  ? "bg-[#18181b] text-white border-[#18181b] shadow-xs"
+                  : "bg-[#fafaf9] hover:bg-slate-100 text-[#3f3f46] border-[#e4e4e7]"
               }`}
             >
-              <span className="text-xl">{item.icon}</span>
+              <div className={`p-1.5 rounded-lg ${isSelected ? "bg-white/10 text-cyan-400" : "bg-slate-200/60 text-slate-700"}`}>
+                <Icon className="w-4 h-4" />
+              </div>
               <div>
                 <div className="text-xs font-bold leading-tight">{item.title}</div>
                 <div
@@ -183,13 +183,13 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
       </div>
 
       {/* Real-time Health Recommendation Banner */}
-      <div className="p-4 rounded-xl border border-[#e5e5e3] bg-gradient-to-br from-slate-50 to-white flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="p-4 rounded-xl border border-[#e4e4e7] bg-gradient-to-br from-slate-50 to-white flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div className="space-y-1">
           <div className="flex items-center gap-2">
             <span className="text-xs font-mono uppercase text-[#71717a]">
               Active Telemetry ({currentFrame.displayTime} IST):
             </span>
-            <span className="text-sm font-extrabold font-mono text-[#1d1d1d]">{pm25} µg/m³</span>
+            <span className="text-sm font-extrabold font-mono text-[#18181b]">{pm25} µg/m³</span>
           </div>
           <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold border ${statusColor}`}>
             <StatusIcon className="w-4 h-4 shrink-0" />
@@ -203,7 +203,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
       </div>
 
       {/* 24-Hour Diurnal Activity Planner Track */}
-      <div className="space-y-2 bg-[#fafaf9] p-4 rounded-xl border border-[#ebebe9]">
+      <div className="space-y-2 bg-[#fafaf9] p-4 rounded-xl border border-[#e4e4e7]">
         <div className="flex items-center justify-between text-xs font-mono font-bold text-[#3f3f46]">
           <span>Typical 24-Hour Outdoor Activity Windows ({stationMeta.name.split(",")[0]})</span>
           <div className="flex items-center gap-3 text-[10px] font-normal">
@@ -252,7 +252,7 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
           {persona.recommendations.map((rec, idx) => (
             <div
               key={idx}
-              className="p-3 rounded-xl bg-white border border-[#e5e5e3] shadow-2xs text-xs text-[#3f3f46] flex items-start gap-2.5"
+              className="p-3 rounded-xl bg-white border border-[#e4e4e7] shadow-2xs text-xs text-[#3f3f46] flex items-start gap-2.5"
             >
               <span className="flex items-center justify-center w-5 h-5 rounded-full bg-slate-100 text-slate-700 font-mono text-[10px] font-bold shrink-0">
                 {idx + 1}
@@ -265,4 +265,3 @@ export const HealthAdvisoryWidget: React.FC<HealthAdvisoryProps> = ({ stations, 
     </div>
   );
 };
-

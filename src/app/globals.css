@@ -4,8 +4,8 @@
 
 :root {
   --fs: min(19.6vh, 13.2vw);
-  --background: #f2f2f1;
-  --foreground: #1d1d1d;
+  --background: #fafaf9;
+  --foreground: #18181b;
 }
 
 @media (max-width: 720px) {
@@ -28,16 +28,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f2f2f1;
+  background: #fafaf9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #a9a9a6;
-  border-radius: 3px;
+  background: #d4d4d8;
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1d1d1d;
+  background: #a1a1aa;
 }
 
 /* =========================================================
@@ -68,7 +68,7 @@ div[aria-label*="development"] {
 
 /* Reset Map Containers */
 .leaflet-container {
-  background: #f8f8f7 !important;
+  background: #f4f4f2 !important;
   font-family: inherit;
 }
 

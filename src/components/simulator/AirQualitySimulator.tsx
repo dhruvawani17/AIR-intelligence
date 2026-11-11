@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { StationMeta } from "@/types";
-import { Sliders, Wind, Flame, CloudSun, ShieldAlert, Sparkles, RefreshCw, Activity, ArrowUpRight, ArrowDownRight } from "lucide-react";
+import { Sliders, Wind, Flame, CloudSun, Sparkles, RefreshCw, Activity, ArrowUpRight, ArrowDownRight } from "lucide-react";
 import ReactECharts from "echarts-for-react";
 
 interface SimulatorProps {
@@ -17,7 +17,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
   const [humidity, setHumidity] = useState<number>(65); // 30% to 95%
   const [selectedStationId, setSelectedStationId] = useState<string>("3409511"); // default Shivaji Nagar
 
-  // Scenarios
+  // Presets
   const setScenario = (preset: "standard" | "diwali" | "maritime" | "traffic") => {
     switch (preset) {
       case "standard":
@@ -55,29 +55,22 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
       const baseline = st.metrics.recentPostMonsoonMean || 42.0;
 
       // Transfer factors:
-      // 1. Sea breeze dispersion factor (stronger on coastal Malad 11611 than inland Shivaji Nagar 3409511)
       const coastalSensitivity = id === "11611" ? 1.6 : id === "11606" ? 1.1 : id === "3409510" ? 1.2 : 0.8;
-      // High wind -> dispersion (reduces PM2.5); calm wind (<5 km/h) -> accumulation
       const windFactor = Math.max(0.35, 1.0 - ((seaBreezeSpeed - 12) / 30) * coastalSensitivity);
 
-      // 2. Inversion trapping factor (extreme in Deonar/Govandi 3409511, lower in Borivali forest buffer 11606)
       const inversionSensitivity = id === "3409511" ? 1.7 : id === "3409510" ? 1.3 : id === "11611" ? 1.1 : 0.8;
       const invFactor = 1.0 + ((inversionStrength - 40) / 100) * inversionSensitivity;
 
-      // 3. Emission surge factor (industrial/festival vs residential)
       const emissionSensitivity = id === "3409511" ? 1.5 : id === "3409510" ? 1.25 : 1.0;
       const emFactor = 1.0 + ((emissionMultiplier - 100) / 100) * emissionSensitivity;
 
-      // 4. Hygroscopic aerosol growth (secondary aerosol formation under high humidity)
       const humFactor = 1.0 + (humidity > 70 ? ((humidity - 70) / 100) * 0.45 : 0);
 
-      // Final simulated PM2.5
       let simulatedPM25 = baseline * windFactor * invFactor * emFactor * humFactor;
       simulatedPM25 = Math.max(8.0, Math.min(850.0, simulatedPM25));
 
       const deltaPercent = ((simulatedPM25 - baseline) / baseline) * 100;
 
-      // NAQI Category
       let aqiCat = "Good";
       let aqiColor = "#10B981";
       if (simulatedPM25 > 250) {
@@ -121,6 +114,12 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
+        backgroundColor: "rgba(255, 255, 255, 0.98)",
+        borderColor: "#E4E4E7",
+        borderWidth: 1,
+        textStyle: { color: "#18181B", fontSize: 11 },
+        shadowBlur: 10,
+        shadowColor: "rgba(0,0,0,0.06)",
         formatter: (params: any[]) => {
           let str = `<div class="font-bold text-xs mb-1 text-slate-800">${params[0].axisValue}</div>`;
           params.forEach((p) => {
@@ -138,7 +137,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
       legend: {
         data: ["Simulated Atmosphere", "Post-Monsoon Baseline"],
         top: 0,
-        textStyle: { fontSize: 11, color: "#52525b" },
+        textStyle: { fontSize: 11, color: "#71717A" },
       },
       grid: {
         top: 36,
@@ -149,14 +148,15 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
       xAxis: {
         type: "category",
         data: stationNames,
-        axisLabel: { fontSize: 11, color: "#52525b" },
+        axisLabel: { fontSize: 11, color: "#71717A" },
+        axisLine: { lineStyle: { color: "#E4E4E7" } },
       },
       yAxis: {
         type: "value",
         name: "PM2.5 (µg/m³)",
-        nameTextStyle: { fontSize: 10, color: "#71717a" },
-        axisLabel: { fontSize: 10, color: "#71717a" },
-        splitLine: { lineStyle: { color: "#f1f1f0" } },
+        nameTextStyle: { fontSize: 10, color: "#71717A" },
+        axisLabel: { fontSize: 10, color: "#71717A" },
+        splitLine: { lineStyle: { color: "#F4F4F5" } },
       },
       series: [
         {
@@ -184,15 +184,15 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
   }, [stations, simulationResults]);
 
   return (
-    <div className="bg-white border border-[#e5e5e3] rounded-2xl p-6 shadow-xs space-y-6">
+    <div className="bg-white border border-[#e4e4e7] rounded-2xl p-6 shadow-sm space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f0f0ee] pb-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#f4f4f5] pb-4">
         <div>
-          <div className="inline-flex items-center gap-2 text-xs font-mono text-indigo-700 uppercase tracking-wider font-semibold">
+          <div className="inline-flex items-center gap-2 text-xs font-mono text-indigo-600 uppercase tracking-wider font-semibold">
             <Sliders className="w-3.5 h-3.5 text-indigo-600" />
             Atmospheric &amp; Anthropogenic Physics Engine
           </div>
-          <h3 className="text-xl font-bold text-[#1d1d1d] pt-1">
+          <h3 className="text-xl font-bold text-[#18181b] pt-1">
             Mumbai Interactive &quot;What-If&quot; Air Quality Simulator
           </h3>
           <p className="text-xs text-[#71717a] pt-0.5">
@@ -201,11 +201,11 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
         </div>
 
         {/* Preset Buttons */}
-        <div className="flex flex-wrap items-center gap-1.5 bg-[#f4f4f2] p-1.5 rounded-xl border border-[#e5e5e3]">
+        <div className="flex flex-wrap items-center gap-1.5 bg-[#f4f4f5] p-1.5 rounded-xl border border-[#e4e4e7]">
           <span className="text-[10px] font-mono uppercase text-[#71717a] px-2 font-bold">Presets:</span>
           <button
             onClick={() => setScenario("standard")}
-            className="px-2.5 py-1 text-xs rounded-lg font-medium bg-white text-[#1d1d1d] hover:bg-slate-50 border border-[#e5e5e3] shadow-2xs transition-all"
+            className="px-2.5 py-1 text-xs rounded-lg font-medium bg-white text-[#18181b] hover:bg-slate-50 border border-[#e4e4e7] shadow-2xs transition-all"
           >
             Baseline
           </button>
@@ -235,8 +235,8 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
       {/* Main Grid: Controls + Live Visual Feedback */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Left Column: Interactive Sliders (5 cols) */}
-        <div className="lg:col-span-5 space-y-5 bg-[#fafaf9] p-5 rounded-xl border border-[#ebebe9]">
-          <h4 className="text-xs font-mono font-bold uppercase tracking-wider text-[#3f3f46] flex items-center justify-between">
+        <div className="lg:col-span-5 space-y-5 bg-[#fafaf9] p-5 rounded-xl border border-[#e4e4e7]">
+          <div className="flex items-center justify-between text-xs font-mono font-bold uppercase tracking-wider text-[#3f3f46]">
             <span>Atmospheric Variables</span>
             <button
               onClick={() => setScenario("standard")}
@@ -244,12 +244,12 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
             >
               <RefreshCw className="w-2.5 h-2.5" /> Reset
             </button>
-          </h4>
+          </div>
 
           {/* Slider 1: Arabian Sea Breeze Speed */}
           <div className="space-y-1.5">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-semibold text-[#1d1d1d] flex items-center gap-1.5">
+              <span className="font-semibold text-[#18181b] flex items-center gap-1.5">
                 <Wind className="w-3.5 h-3.5 text-cyan-600" />
                 Arabian Sea Breeze Speed
               </span>
@@ -275,7 +275,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
           {/* Slider 2: Nocturnal Boundary Layer Inversion */}
           <div className="space-y-1.5">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-semibold text-[#1d1d1d] flex items-center gap-1.5">
+              <span className="font-semibold text-[#18181b] flex items-center gap-1.5">
                 <CloudSun className="w-3.5 h-3.5 text-indigo-600" />
                 Nocturnal Inversion Trapping
               </span>
@@ -301,7 +301,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
           {/* Slider 3: Urban Emission Surge / Firecrackers */}
           <div className="space-y-1.5">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-semibold text-[#1d1d1d] flex items-center gap-1.5">
+              <span className="font-semibold text-[#18181b] flex items-center gap-1.5">
                 <Flame className="w-3.5 h-3.5 text-rose-600" />
                 Urban Emissions / Firecrackers
               </span>
@@ -328,7 +328,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
           {/* Slider 4: Relative Humidity */}
           <div className="space-y-1.5">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-semibold text-[#1d1d1d] flex items-center gap-1.5">
+              <span className="font-semibold text-[#18181b] flex items-center gap-1.5">
                 <Activity className="w-3.5 h-3.5 text-emerald-600" />
                 Relative Humidity (Smog Trigger)
               </span>
@@ -363,8 +363,8 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
                 onClick={() => setSelectedStationId(id)}
                 className={`px-3 py-1 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
                   selectedStationId === id
-                    ? "bg-[#1d1d1d] text-white shadow-xs font-semibold"
-                    : "bg-[#f4f4f2] text-[#52525b] hover:bg-[#eaeaec]"
+                    ? "bg-[#18181b] text-white shadow-xs font-semibold"
+                    : "bg-[#f4f4f5] text-[#52525b] hover:bg-[#e4e4e7]"
                 }`}
               >
                 {st.name.split(",")[0]}
@@ -375,7 +375,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
           {/* Simulated PM2.5 Gauge Card */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {/* Projected PM2.5 */}
-            <div className="p-4 rounded-xl bg-gradient-to-br from-white to-slate-50 border border-[#e5e5e3] shadow-xs space-y-1">
+            <div className="p-4 rounded-xl bg-gradient-to-br from-white to-slate-50 border border-[#e4e4e7] shadow-xs space-y-1">
               <div className="text-[11px] font-mono uppercase text-[#71717a] font-medium">Projected PM2.5</div>
               <div className="flex items-baseline gap-1.5">
                 <span className="text-3xl font-extrabold font-mono tracking-tight" style={{ color: activeResult.aqiColor }}>
@@ -398,12 +398,12 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
             </div>
 
             {/* National AQI Category */}
-            <div className="p-4 rounded-xl bg-gradient-to-br from-white to-slate-50 border border-[#e5e5e3] shadow-xs space-y-1">
+            <div className="p-4 rounded-xl bg-gradient-to-br from-white to-slate-50 border border-[#e4e4e7] shadow-xs space-y-1">
               <div className="text-[11px] font-mono uppercase text-[#71717a] font-medium">Indian NAQI Band</div>
               <div className="text-xl font-bold tracking-tight" style={{ color: activeResult.aqiColor }}>
                 {activeResult.aqiCat}
               </div>
-              <div className="text-[11px] text-[#71717a] pt-1">
+              <div className="text-[11px] text-[#71717a] pt-1 leading-tight">
                 {activeResult.aqiCat === "Good" || activeResult.aqiCat === "Satisfactory"
                   ? "Minimal respiratory impact"
                   : activeResult.aqiCat === "Moderate"
@@ -417,9 +417,9 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
             </div>
 
             {/* Microclimate Defense */}
-            <div className="p-4 rounded-xl bg-gradient-to-br from-white to-slate-50 border border-[#e5e5e3] shadow-xs space-y-1">
+            <div className="p-4 rounded-xl bg-gradient-to-br from-white to-slate-50 border border-[#e4e4e7] shadow-xs space-y-1">
               <div className="text-[11px] font-mono uppercase text-[#71717a] font-medium">Microclimate Feature</div>
-              <div className="text-sm font-bold text-[#1d1d1d]">{activeStation.stationType}</div>
+              <div className="text-sm font-bold text-[#18181b]">{activeStation.stationType}</div>
               <div className="text-[11px] text-[#52525b] leading-tight pt-1">
                 {activeStation.id === "11611"
                   ? "Direct coastal corridor: high sea breeze ventilation response."
@@ -433,7 +433,7 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
           </div>
 
           {/* Real-Time Comparative Bar Chart across all 4 stations */}
-          <div className="bg-[#fafaf9] p-4 rounded-xl border border-[#ebebe9]">
+          <div className="bg-[#fafaf9] p-4 rounded-xl border border-[#e4e4e7]">
             <div className="text-xs font-mono font-bold text-[#3f3f46] mb-1">
               Cross-City PM2.5 Impact: Simulated vs Baseline
             </div>
@@ -446,4 +446,3 @@ export const AirQualitySimulator: React.FC<SimulatorProps> = ({ stations }) => {
     </div>
   );
 };
-
